@@ -1,4 +1,33 @@
-/* Estilos para tareas completadas */
 .completada {
   text-decoration: line-through;
+}
+
+.btn-completar {
+  background-color: greenyellow;
+  color:whitesmoke;
+  border:2px;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.btn-eliminar{
+  background-color:red;
+  color: whitesmoke;
+  border:2px;
+  padding:5px;
+  border-radius: 5px;
+}
+
+#nuevaTarea{
+  color:black;
+}
+
+#listaTarea{
+  display:flex;
+  flex-direction:column;
+  gap: 9px;
+}
+
+button{
+  margin-left:5px;
 }
